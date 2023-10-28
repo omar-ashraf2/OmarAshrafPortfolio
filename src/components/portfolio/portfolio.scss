@@ -1,0 +1,164 @@
+@import "../../app.scss";
+
+.portfolio {
+  position: relative;
+
+  .progress {
+    position: sticky;
+    top: 0;
+    left: 0;
+    padding-top: 50px;
+    text-align: center;
+    color: orange;
+    font-size: 36px;
+    background-color: #0c0c1d;
+    z-index: 998;
+    @include mobile {
+      bottom: 0;
+      margin: 30px 0;
+    }
+    h1 {
+      @include mobile {
+        margin-top: 30px;
+        font-size: 30px;
+      }
+    }
+    .progressBar {
+      height: 10px;
+      background-color: white;
+    }
+  }
+  .container {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    .wrapper {
+      max-width: 1200px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      @include mobile {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      .imgContainer {
+        flex: 1;
+        height: 50%;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.295);
+          width: 100%;
+          height: 100%;
+          top: 0;
+          left: 0;
+          transition: 0.5s ease;
+          z-index: 3;
+        }
+        .viewMode {
+          display: flex;
+          align-items: center;
+          justify-self: center;
+          gap: 50px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 5;
+          @include mobile {
+            gap: 20px;
+          }
+          a {
+            display: flex;
+            border-radius: 20px;
+            width: 100px;
+            align-items: center;
+            flex-direction: column;
+            background-color: #ffa600bd;
+            color: black;
+            font-weight: bold;
+            transition: 0.3s ease;
+            &:hover {
+              background-color: #ffa500;
+            }
+            @include mobile {
+              width: 80px;
+              font-size: 14px;
+            }
+            img {
+              width: 60px;
+              height: 60px;
+              @include mobile {
+                width: 40px;
+              }
+            }
+          }
+        }
+
+        &:hover {
+          &::after {
+            background-color: rgba(0, 0, 0, 0.5);
+          }
+        }
+        @include mobile {
+          margin-top: 170px;
+          width: 100%;
+          max-height: 300px;
+        }
+
+        img {
+          max-width: 100%;
+          height: 100%;
+          object-fit: cover;
+          @include mobile {
+            object-fit: cover;
+          }
+        }
+      }
+      .textContainer {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        @include mobile {
+          transform: none !important;
+          padding: 10px;
+          align-items: center;
+          text-align: center;
+        }
+        h2 {
+          font-size: 66px;
+          @include mobile {
+            font-size: 36px;
+          }
+        }
+        p {
+          color: gray;
+          font-size: 20px;
+          @include mobile {
+            font-size: 16px;
+          }
+        }
+        a {
+          background-color: orange;
+          border: none;
+          font-weight: bold;
+          border-radius: 10px;
+          padding: 10px;
+          width: 200px;
+          text-align: center;
+          color: rgb(20, 3, 3);
+        }
+      }
+    }
+  }
+}
