@@ -5,7 +5,7 @@ Welcome to my portfolio website! This project showcases my skills as a front-end
 
 ### Demo
 
-- Live Site URL: [HERE]([https://omar-ashraf2.github.io/newsletter-sign-up-with-success-message-frontendMentor/](https://omarashrafportfolio.netlify.app/))
+- Live Site URL: [HERE](https://omarashrafportfolio.netlify.app/)
 
 ### Installation
 
