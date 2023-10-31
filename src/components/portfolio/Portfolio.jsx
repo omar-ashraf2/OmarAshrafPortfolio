@@ -10,7 +10,7 @@ const items = [
     img: "/proj/nextBlogApp.png",
     desc: "Under Construction",
     url: "https://pngimg.com/uploads/under_construction/under_construction_PNG18.png",
-    repo: "https://pngimg.com/uploads/under_construction/under_construction_PNG18.png",
+    repo: "https://github.com/omar-ashraf2/blogPostApp-Next",
   },
   {
     id: 2,
