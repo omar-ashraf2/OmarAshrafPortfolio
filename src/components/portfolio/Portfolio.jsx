@@ -8,8 +8,8 @@ const items = [
     id: 1,
     title: "Next.js Blog App",
     img: "/proj/nextBlogApp.png",
-    desc: "Under Construction",
-    url: "https://pngimg.com/uploads/under_construction/under_construction_PNG18.png",
+    desc: "A Next.js and MongoDB-powered blog post app is a dynamic web application for publishing and managing blog content. It leverages Next.js for high-performance rendering and MongoDB for robust data storage. This combination offers a seamless user experience and efficient content management.",
+    url: "https://blogpostappnextjs.netlify.app/",
     repo: "https://github.com/omar-ashraf2/blogPostApp-Next",
   },
   {
