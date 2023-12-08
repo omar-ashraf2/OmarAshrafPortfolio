@@ -38,11 +38,35 @@ const items = [
   },
   {
     id: 5,
+    title: "Disney+ Clone",
+    img: "/proj/dplus.png",
+    desc: "Disney+ is a streaming service where you can watch movies, series, and originals from Disney, Pixar, Marvel, Star Wars, Nat Geo, and more. Built with React, TS, Redux, and Firebase",
+    url: "https://disneyplus-clone-ts.netlify.app/",
+    repo: "https://github.com/omar-ashraf2/disney--clone-reactjs-redux-typescript-firebase",
+  },
+  {
+    id: 6,
     title: "Blog App",
     img: "/proj/blogAppReact.png",
     desc: "The blog post app, meticulously crafted with React.js, redefines the way users engage with written content. It provides a modern and immersive platform for reading, writing, and sharing articles on a wide range of topics.",
     url: "https://omar-ashraf2.github.io/blog-post-app/",
     repo: "https://github.com/omar-ashraf2/blog-post-app",
+  },
+  {
+    id: 7,
+    title: "Clock App JS",
+    img: "/proj/clock.png",
+    desc: "A simple clock app built with Vanilla JS",
+    url: "https://clock-app-js.netlify.app/",
+    repo: "https://github.com/omar-ashraf2/clock-app-js",
+  },
+  {
+    id: 8,
+    title: "Age Calculator JS",
+    img: "/proj/age-calc.jpg",
+    desc: "A simple age calculator app built with Vanilla JS",
+    url: "https://age-calc-app-javascript.netlify.app/",
+    repo: "https://github.com/omar-ashraf2/age-calculator-app",
   },
 ];
 
