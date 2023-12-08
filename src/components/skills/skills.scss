@@ -8,6 +8,7 @@
   gap: 10px;
   @include mobile {
     margin-bottom: 20px;
+    gap: 25px;
   }
   .card-container {
     overflow: hidden;
@@ -18,6 +19,7 @@
     position: relative;
     @include mobile {
       width: 170px;
+      overflow: visible;
     }
     .card {
       width: 100px;
