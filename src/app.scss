@@ -2,6 +2,8 @@ html {
   // scroll-snap-type: y mandatory;
   scroll-snap-type: both proximity;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
 }
 * {
   padding: 0;
