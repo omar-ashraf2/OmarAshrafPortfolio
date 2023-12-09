@@ -9,16 +9,18 @@
   @include mobile {
     margin-bottom: 20px;
     gap: 25px;
+    justify-content: space-around;
   }
   .card-container {
     overflow: hidden;
     width: 200px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     position: relative;
     @include mobile {
-      width: 170px;
+      width: 150px;
       overflow: visible;
     }
     .card {
